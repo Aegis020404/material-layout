@@ -5,7 +5,7 @@ const BasketItem = (props) => {
     return (
         <ListItem className='list-group-item'>
             <Typography
-                variant={'body1'}
+                variant={'body2'}
             >
                 {props.name} {props.price}руб x{props.quantity}
             </Typography>
